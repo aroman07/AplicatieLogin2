@@ -19,7 +19,11 @@ public class MainForm {
                         JOptionPane.QUESTION_MESSAGE);
 
                 if (result == JOptionPane.YES_OPTION){
-                    System.out.println("Yes");
+                    JOptionPane.showConfirmDialog(null,
+                            "You have selected to login",
+                            "Result",
+                            JOptionPane.DEFAULT_OPTION,
+                            JOptionPane.INFORMATION_MESSAGE);
                 }
                 else
                     System.out.println("No");
